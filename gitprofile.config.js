@@ -6,8 +6,8 @@ const config = {
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [
-        PFGrupo4FrontEnd,
-        PFGrupo4Backend,
+        // PFGrupo4FrontEnd,
+        // PFGrupo4Backend,
         // Prep-Course,
         // fe-ct-prepcourse-fs,
         // Learn-Next-js,
