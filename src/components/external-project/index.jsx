@@ -28,7 +28,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                   <div className="w-full">
                     <h2>
                       {skeleton({
-                        width: 'w-32',
+                        width: 'w-320',
                         height: 'h-8',
                         className: 'mb-2 mx-auto',
                       })}
