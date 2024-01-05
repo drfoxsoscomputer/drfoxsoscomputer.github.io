@@ -11,7 +11,7 @@ const config = {
         Prep-Course,
         fe-ct-prepcourse-fs,
         Learn-Next-js,
-        drfoxsoscomputer.github.io,
+        // drfoxsoscomputer.github.io,
         IA-en-Practica,
       ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
