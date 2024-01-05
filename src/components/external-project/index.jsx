@@ -120,6 +120,18 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                   <p className="mt-1 text-base-content text-opacity-60 text-sm">
                     {item.description}
                   </p>
+                  {item.videoUrl && (
+                    <p className="mt-2 text-base-content text-opacity-60 text-sm">
+                      <strong>Video:</strong>{' '}
+                      <a href={item.videoUrl}>Ver Video</a>
+                    </p>
+                  )}
+                  {item.githubRepo && (
+                    <p className="mt-2 text-base-content text-opacity-60 text-sm">
+                      <strong>Repositorio:</strong>{' '}
+                      <a href={item.githubRepo}>Ver en GitHub</a>
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
