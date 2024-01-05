@@ -10,7 +10,7 @@ const config = {
         // PFGrupo4Backend,
         // Prep-Course,
         // fe-ct-prepcourse-fs,
-        Learn-Next-js,
+        // Learn-Next-js,
         // drfoxsoscomputer.github.io,
         // IA-en-Practica,
       ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -36,7 +36,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1nBxqzo5XvfesAehzb2kHWY17-niYDVnl/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://i.ibb.co/10TYjzR/Screenshot-Game-World.png', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
