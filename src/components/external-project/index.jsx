@@ -28,12 +28,12 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                   <div className="w-full">
                     <h2>
                       {skeleton({
-                        width: 'w-320',
+                        width: 'w-32',
                         height: 'h-8',
                         className: 'mb-2 mx-auto',
                       })}
                     </h2>
-                    <div className="avatar w-full h-full">
+                    <div>
                       <div className="w-20 h-20 mask mask-squircle mx-auto">
                         {skeleton({
                           width: 'w-full',
