@@ -1,113 +1,109 @@
-// gitprofile.config.js
-
 const config = {
   github: {
     username: 'drfoxsoscomputer', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: true, // Forked projects will not be displayed if set to true.
+      projects: [
+        PFGrupo4FrontEnd,
+        PFGrupo4Backend,
+        Prep-Course,
+        fe-ct-prepcourse-fs,
+        Learn-Next-js,
+        drfoxsoscomputer.github.io,
+        IA-en-Practica,
+      ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'denis-drfox',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'daprthefox@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1nBxqzo5XvfesAehzb2kHWY17-niYDVnl/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
+    'React',
+    'Redux',
+    'Node',
+    'Express',
+    'Sequelize',
     'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Git/Github',
+    'SCRUM',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'September 2021',
+    //   to: 'Present',
+    //   companyLink: 'https://example.com',
+    // },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'July 2019',
+    //   to: 'August 2021',
+    //   companyLink: 'https://example.com',
+    // },
+  ],
+  certifications: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      name: 'Programación desde Cero',
+      body: 'Fundamentos de la Programación, Lógica Algorítmica, Pensamiento Lógico Matemático',
+      year: '04/2023',
+      link: 'https://production-egg-certificates.s3.amazonaws.com/DenisPina/programaci%C3%B3ndesdecerolatam/thumbnail_c24e1ba5c8bd61e8696a3a9bdbc72a95de247dcaaf26fdd29ed9cb6173ffe673.jpeg',
     },
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Henry',
+      degree: 'Desarrollador Full Stack',
+      from: '05/2023',
+      to: '01/204',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Instituto Universitario de Tecnología "Andrés Eloy Blanco"',
+      degree: 'Técnico Superior Universitario en Información y Documentación',
+      from: '2002',
+      to: '2005',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'GameWorld ecommerce',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Proyecto Final del bootcam Soy Henry. Desarrollo de un ecommerce especializado en la venta de videojuegos en formatos físicos y digitales. El proyecto fue ejecutado por un equipo de 7 integrantes utilizando la tecnología ágil SCRUM, con sprints de una semana presentándole a un Product Owner avances sobre el progreso de la app, destacando las siguientes características: características básicas de un ecommerce (CRUD de productos, auth, catálogo, checkout, entre otros).',
+      imageUrl: 'https://drive.google.com/file/d/1VS2IBhQvgQp3X99QJZam9wOspanM-51Q/view?usp=drive_link',
+      link: 'https://gameworldeccomerce.vercel.app',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +115,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
