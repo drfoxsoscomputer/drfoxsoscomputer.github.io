@@ -95,8 +95,8 @@ const config = {
     {
       title: 'GameWorld ecommerce',
       description:
-        'Proyecto Final del bootcam Soy Henry. Desarrollo de un ecommerce especializado en la venta de videojuegos en formatos físicos y digitales. El proyecto fue ejecutado por un equipo de 7 integrantes utilizando la tecnología ágil SCRUM, con sprints de una semana presentándole a un Product Owner avances sobre el progreso de la app, destacando las siguientes características: características básicas de un ecommerce (CRUD de productos, auth, catálogo, checkout, entre otros).',
-      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1701669179/gameworld/background.jpg',
+        'Proyecto Final del bootcam Soy Henry. Desarrollo de un ecommerce especializado en la venta de videojuegos en formatos físicos y digitales. El proyecto fue ejecutado por un equipo de 7 integrantes utilizando la tecnología ágil SCRUM, con sprints de una semana presentándole a un Product Owner avances sobre el progreso de la app, destacando las siguientes características: características básicas de un ecommerce (CRUD de productos, auth, catálogo, checkout, entre otros). ',
+      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/c_scale,w_500/v1704494165/Screenshot_GameWorld_bcbvqg.png',
       link: 'https://gameworldeccomerce.vercel.app',
     },
   ],
