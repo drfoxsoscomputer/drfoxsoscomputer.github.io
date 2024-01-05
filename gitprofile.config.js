@@ -10,7 +10,7 @@ const config = {
         // PFGrupo4Backend,
         // Prep-Course,
         // fe-ct-prepcourse-fs,
-        // Learn-Next-js,
+        Learn-Next-js,
         // drfoxsoscomputer.github.io,
         // IA-en-Practica,
       ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
