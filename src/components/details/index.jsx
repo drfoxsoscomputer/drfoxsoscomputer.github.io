@@ -50,7 +50,7 @@ const ListItem = ({ icon, title, value, link, skeleton = false }) => {
       rel="noreferrer"
       className="flex justify-start py-2 px-2 items-center"
     >
-      <div className="font-medium gap-2 flex items-center my-1">
+      <div className=" gap-2 flex items-center my-1">
         {icon} {title}
       </div>
       <div
@@ -75,7 +75,7 @@ const Details = ({ profile, loading, social, github }) => {
         <ListItem
           key={index}
           skeleton={true}
-          icon={skeleton({ width: 'w-4', height: 'h-4' })}
+          icon={skeleton({ width: 'w-6', height: 'h-4' })}
           title={skeleton({ width: 'w-24', height: 'h-4' })}
           value={skeleton({ width: 'w-full', height: 'h-4' })}
         />
@@ -88,7 +88,7 @@ const Details = ({ profile, loading, social, github }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">
       <div className="card-body">
-        <div className="text-base-content text-opacity-60">
+        <div className="text-lg text-base-content text-opacity-60">
           {loading || !profile ? (
             renderSkeleton()
           ) : (
