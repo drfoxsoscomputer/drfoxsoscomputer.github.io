@@ -8,9 +8,6 @@
     "type": "git",
     "url": "https://drfoxsoscomputer.github.io"
   },
-  "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
-  },
   "files": [
     "dist/gitprofile.es.js",
     "dist/gitprofile.umd.js",
