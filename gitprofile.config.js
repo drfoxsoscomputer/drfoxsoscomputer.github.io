@@ -80,7 +80,7 @@ const config = {
       institution: 'Henry',
       degree: 'Desarrollador Full Stack',
       from: '05/2023',
-      to: '01/204',
+      to: '01/2024',
     },
     {
       institution: 'Instituto Universitario de Tecnología "Andrés Eloy Blanco"',
@@ -99,19 +99,30 @@ const config = {
       imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1701669208/gameworld/logo.png',
       videoUrl: "https://youtu.be/mdVWtYZtcfM",
       githubRepo: 'https://github.com/drfoxsoscomputer/Proyecto_Final',
-      deployedlink: 'https://gameworldeccomerce.vercel.app',
+      deployedLink: 'https://gameworldeccomerce.vercel.app',
       link: '',
     },
     {
       title: 'Pokedex APP',
       description:
-        '     Durante este proyecto individual en el Bootcamp SoyHenry, creé una Pokedex utilizando React. La aplicación cuenta con funcionalidades como paginación, filtros, ordenamiento en el lado del frontend y búsqueda por nombre exacto. Además, implementé la capacidad de crear Pokémon mediante un formulario controlado con JavaScript, integrándolo con la API PokeApi para recopilar datos en tiempo real.',
-      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704499730/images/logo512_yrnajn.png',
+        'Durante este proyecto individual en el Bootcamp SoyHenry, creé una Pokedex utilizando React. La aplicación cuenta con funcionalidades como paginación, filtros, ordenamiento en el lado del frontend y búsqueda por nombre exacto. Además, implementé la capacidad de crear Pokémon mediante un formulario controlado con JavaScript, integrándolo con la API PokeApi para recopilar datos en tiempo real.',
+      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704499730/images/Pokedex_Logo.png',
       videoUrl: "",
       githubRepo: 'https://github.com/drfoxsoscomputer/PI-Pokemon',
-      deployedlink: 'https://gameworldeccomerce.vercel.app',
+      deployedLink: 'https://gameworldeccomerce.vercel.app',
       link: '',
     },
+    {
+    title: 'Rick And Morty APP',
+    description:
+      'Desarrollé una aplicación web (SPA) como parte del proyecto integrador en el Bootcamp SoyHenry.  La aplicación ofrece información detallada sobre los personajes de la famosa serie televisiva estadounidense "Rick and Morty", aprovechando la API pública de la serie.',
+    imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704500472/images/Rick_And_Morty_Logo.png',
+    videoUrl: "https://www.youtube.com/watch?v=76-2ecqBvZk",
+    githubRepo: 'https://github.com/drfoxsoscomputer/Rick-And-Morty',
+    deployedLink: '',
+    link: '',
+  },
+
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
