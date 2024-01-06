@@ -4,7 +4,7 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: true, // Forked projects will not be displayed if set to true.
+      forks: false, // Forked projects will not be displayed if set to true.
       projects: [
         // PFGrupo4FrontEnd,
         // PFGrupo4Backend,
@@ -36,7 +36,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://i.ibb.co/10TYjzR/Screenshot-Game-World.png', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1nBxqzo5XvfesAehzb2kHWY17-niYDVnl/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -96,8 +96,9 @@ const config = {
       title: 'GameWorld ecommerce',
       description:
         'Proyecto Final del bootcam Soy Henry. Desarrollo de un ecommerce especializado en la venta de videojuegos en formatos físicos y digitales. El proyecto fue ejecutado por un equipo de 7 integrantes utilizando la tecnología ágil SCRUM, con sprints de una semana presentándole a un Product Owner avances sobre el progreso de la app, destacando las siguientes características: características básicas de un ecommerce (CRUD de productos, auth, catálogo, checkout, entre otros). ',
-      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1701669208/gameworld/logo.png',
-      videoUrl: "https://youtu.be/mdVWtYZtcfM",
+      imageUrl:
+        'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1701669208/gameworld/logo.png',
+      videoUrl: 'https://youtu.be/mdVWtYZtcfM',
       githubRepo: 'https://github.com/drfoxsoscomputer/Proyecto_Final',
       deployedLink: 'https://gameworldeccomerce.vercel.app',
       link: '',
@@ -106,23 +107,24 @@ const config = {
       title: 'Pokedex APP',
       description:
         'Durante este proyecto individual en el Bootcamp SoyHenry, creé una Pokedex utilizando React. La aplicación cuenta con funcionalidades como paginación, filtros, ordenamiento en el lado del frontend y búsqueda por nombre exacto. Además, implementé la capacidad de crear Pokémon mediante un formulario controlado con JavaScript, integrándolo con la API PokeApi para recopilar datos en tiempo real.',
-      imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704499730/images/Pokedex_Logo.png',
-      videoUrl: "",
+      imageUrl:
+        'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704499730/images/Pokedex_Logo.png',
+      videoUrl: '',
       githubRepo: 'https://github.com/drfoxsoscomputer/PI-Pokemon',
-      deployedLink: 'https://gameworldeccomerce.vercel.app',
+      deployedLink: 'https://pi-pokemon-drfoxsoscomputer.vercel.app',
       link: '',
     },
     {
-    title: 'Rick And Morty APP',
-    description:
-      'Desarrollé una aplicación web (SPA) como parte del proyecto integrador en el Bootcamp SoyHenry.  La aplicación ofrece información detallada sobre los personajes de la famosa serie televisiva estadounidense "Rick and Morty", aprovechando la API pública de la serie.',
-    imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704500472/images/Rick_And_Morty_Logo.png',
-    videoUrl: "https://www.youtube.com/watch?v=76-2ecqBvZk",
-    githubRepo: 'https://github.com/drfoxsoscomputer/Rick-And-Morty',
-    deployedLink: '',
-    link: '',
-  },
-
+      title: 'Rick And Morty APP',
+      description:
+        'Desarrollé una aplicación web (SPA) como parte del proyecto integrador en el Bootcamp SoyHenry.  La aplicación ofrece información detallada sobre los personajes de la famosa serie televisiva estadounidense "Rick and Morty", aprovechando la API pública de la serie.',
+      imageUrl:
+        'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1704500472/images/Rick_And_Morty_Logo.png',
+      videoUrl: 'https://www.youtube.com/watch?v=76-2ecqBvZk',
+      githubRepo: 'https://github.com/drfoxsoscomputer/Rick-And-Morty',
+      deployedLink: '',
+      link: '',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {

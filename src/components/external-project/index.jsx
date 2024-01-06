@@ -129,7 +129,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Ver Video
+                        Ver en Youtube
                       </a>
                     </p>
                   )}
