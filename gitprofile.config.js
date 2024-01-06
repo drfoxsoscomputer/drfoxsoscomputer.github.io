@@ -99,7 +99,8 @@ const config = {
       imageUrl: 'https://res.cloudinary.com/dmhxl1rpc/image/upload/v1701669208/gameworld/logo.png',
       videoUrl: "https://youtu.be/mdVWtYZtcfM",
       githubRepo: 'https://github.com/drfoxsoscomputer/Proyecto_Final',
-      link: 'https://gameworldeccomerce.vercel.app',
+      deployedlink: 'https://gameworldeccomerce.vercel.app',
+      // link: 'https://gameworldeccomerce.vercel.app',
     },
     {
       title: 'GameWorld ecommerce',

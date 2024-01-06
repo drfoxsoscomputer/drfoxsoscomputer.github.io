@@ -124,13 +124,37 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                   {item.videoUrl && (
                     <p className="mt-2 text-base-content text-opacity-60 text-sm">
                       <strong>Video:</strong>{' '}
-                      <a href={item.videoUrl}>Ver Video</a>
+                      <a
+                        href={item.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Ver Video
+                      </a>
                     </p>
                   )}
                   {item.githubRepo && (
                     <p className="mt-2 text-base-content text-opacity-60 text-sm">
                       <strong>Repositorio:</strong>{' '}
-                      <a href={item.githubRepo}>Ver en GitHub</a>
+                      <a
+                        href={item.githubRepo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Ver en GitHub
+                      </a>
+                    </p>
+                  )}
+                  {item.deployedLink && (
+                    <p className="mt-2 text-base-content text-opacity-60 text-sm">
+                      <strong>Deploy en:</strong>{' '}
+                      <a
+                        href={item.deployedLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Ver Proyecto
+                      </a>
                     </p>
                   )}
                 </div>
